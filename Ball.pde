@@ -4,4 +4,7 @@ class Ball {
   void display() {
     ellipse(x, y, size, size);
   }
+  void move() {
+    y += 1;
+  }
 } 
